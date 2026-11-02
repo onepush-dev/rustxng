@@ -9,7 +9,7 @@ One-click Railway template for [RustXNG](https://github.com/sahenjp/RustXNG) (AG
 - Upstream image `ghcr.io/sahenjp/rustxng:0.26.0`, unmodified, packaged as `ghcr.io/onepush-dev/rustxng:0.26.0`
 - SearXNG-compatible `/search?q=…&format=json` API and web UI, `/healthz`, OpenMetrics `/metrics`
 - A generated `SEARXNG_SECRET` replaces the published default `server.secret_key` (signs the image/favicon proxy)
-- Dual-stack listener on port 8888. Agents in the same Railway project can call `http://${{RustXNG.RAILWAY_PRIVATE_DOMAIN}}:8888` without going through the public internet
+- Dual-stack listener on Railway's PORT (8080). Agents in the same Railway project can call `http://${{RustXNG.RAILWAY_PRIVATE_DOMAIN}}:8080` without going through the public internet
 
 ## Usage
 
