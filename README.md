@@ -1,6 +1,6 @@
 # RustXNG on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/rustxng)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/AmY0oK)
 
 One-click Railway template for [RustXNG](https://github.com/sahenjp/RustXNG) (AGPL-3.0-or-later): a SearXNG-compatible metasearch and grounding engine for AI agents, written as a single Rust binary. A single request returns ranked results plus the page text. You don't need API keys, and outbound fetches are SSRF-guarded (public addresses only).
 
